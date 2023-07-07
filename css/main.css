@@ -7,5 +7,32 @@
 body {
   background-color: #333;
   font-family: "Montserrat", sans-serif;
-  color: antiquewhite;
+}
+
+nav {
+  text-transform: uppercase;
+}
+nav i {
+  padding-right: 10px;
+}
+nav .navbar-toggler {
+  padding: 10px 15px;
+}
+nav .navbar-brand {
+  font-weight: bold;
+}
+nav .navbar-brand:hover {
+  color: #039dff;
+}
+nav .nav-link,
+nav .navbar-nav .nav-link.show,
+nav .navbar-brand,
+nav .fa-bars {
+  color: #e8f0f5;
+}
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show {
+  color: #039dff;
 }/*# sourceMappingURL=main.css.map */

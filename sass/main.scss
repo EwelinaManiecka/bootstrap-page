@@ -1,3 +1,5 @@
+@use "./colors" as *;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,5 +9,38 @@
 body {
   background-color: #333;
   font-family: "Montserrat", sans-serif;
-  color: antiquewhite;
+}
+
+nav {
+  text-transform: uppercase;
+
+  i {
+    padding-right: 10px;
+  }
+
+  .navbar-toggler {
+    padding: 10px 15px;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+
+    &:hover {
+      color: $mainColor;
+    }
+  }
+
+  .nav-link,
+  .navbar-nav .nav-link.show,
+  .navbar-brand,
+  .fa-bars {
+    color: $white;
+  }
+
+  .nav-link:focus,
+  .nav-link:hover,
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: $mainColor;
+  }
 }
