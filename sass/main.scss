@@ -17,6 +17,7 @@ body {
 
 nav {
   text-transform: uppercase;
+  z-index: 10;
 
   i {
     padding-right: 10px;
@@ -81,5 +82,41 @@ header.hero-img {
     justify-content: center;
     align-items: center;
     height: 100%;
+  }
+
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .fa-chevron-down {
+    position: absolute;
+    bottom: 20px;
+    font-size: 30px;
+    color: $white;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-text {
+    h1 {
+      font-size: 42px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  header.hero-img {
+    background-image: $heroGradient,
+      url("../img/playstation-gf444c9196_1920.jpg");
   }
 }
