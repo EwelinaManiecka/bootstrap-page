@@ -6,9 +6,26 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 74px;
+}
+
 body {
   background-color: #333;
   font-family: "Montserrat", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  color: $mainColor;
+  width: 60px;
+  height: 4px;
+  background-color: $mainColor;
+  margin: 0 auto 40px;
 }
 
 .shadow-bg {
@@ -23,7 +40,7 @@ body {
 nav {
   text-transform: uppercase;
   z-index: 10;
-  transition: 0.6s;
+  transition: background-color 0.6s;
 
   i {
     padding-right: 10px;
@@ -108,6 +125,30 @@ header.hero-img {
   }
 }
 
+.aboutus {
+  i {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .aboutus-card-title {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .aboutus-card-text {
+    font-size: 14px;
+  }
+}
+
+.change-color {
+  transition: color 0.3s;
+}
+.change-color:hover {
+  color: $mainColor;
+  transition: color 0.3s;
+}
+
 @media (min-width: 768px) {
   .hero-text {
     h1 {
@@ -117,6 +158,12 @@ header.hero-img {
     p {
       font-size: 22px;
     }
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 72px;
   }
 }
 

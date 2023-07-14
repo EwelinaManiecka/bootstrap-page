@@ -4,9 +4,26 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 74px;
+}
+
 body {
   background-color: #333;
   font-family: "Montserrat", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  color: #039dff;
+  width: 60px;
+  height: 4px;
+  background-color: #039dff;
+  margin: 0 auto 40px;
 }
 
 .shadow-bg {
@@ -21,7 +38,7 @@ body {
 nav {
   text-transform: uppercase;
   z-index: 10;
-  transition: 0.6s;
+  transition: background-color 0.6s;
 }
 nav i {
   padding-right: 10px;
@@ -93,12 +110,38 @@ header.hero-img .fa-chevron-down {
   transform: translateX(-50%);
 }
 
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+
+.change-color {
+  transition: color 0.3s;
+}
+
+.change-color:hover {
+  color: #039dff;
+  transition: color 0.3s;
+}
+
 @media (min-width: 768px) {
   .hero-text h1 {
     font-size: 42px;
   }
   .hero-text p {
     font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 72px;
   }
 }
 @media (min-width: 992px) {
