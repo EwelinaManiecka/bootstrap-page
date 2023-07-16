@@ -263,9 +263,29 @@ header.hero-img {
 }
 
 .team {
+  .card {
+    transition: scale 0.3s;
+
+    &:hover {
+      scale: 0.95;
+    }
+
+    .card-title {
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    img {
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
   .card-footer {
     i {
-      font-size: 20px;
+      padding: 10px;
+      font-size: 15px;
       color: $mainColor;
     }
   }
@@ -317,5 +337,9 @@ header.hero-img {
 
   .aboutus-hero {
     background-image: url("../img//technology-big.jpg");
+  }
+
+  .team-img {
+    background-image: url("../img/sala-big.jpg");
   }
 }
