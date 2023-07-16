@@ -215,9 +215,39 @@ header.hero-img {
   }
 }
 
-.price {
+.prices {
   .price-box {
     margin: 20px;
+    background-color: $white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    max-width: 300px;
+  }
+
+  .price-title {
+    text-transform: uppercase;
+    color: $mainColor;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  i {
+    padding: 0 5px;
+    font-size: 24px;
+  }
+
+  button {
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+
+  .price-tag {
+    font-weight: bold;
+    font-size: 30px;
   }
 }
 

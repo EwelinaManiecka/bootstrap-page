@@ -64,7 +64,7 @@ nav .nav-link,
 nav .navbar-nav .nav-link.show,
 nav .navbar-brand,
 nav .fa-bars {
-  color: #e8f0f5;
+  color: #ffffff;
 }
 nav .nav-link:focus,
 nav .nav-link:hover,
@@ -80,7 +80,7 @@ header.hero-img {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-  color: #e8f0f5;
+  color: #ffffff;
   z-index: 0;
 }
 header.hero-img h1 {
@@ -113,7 +113,7 @@ header.hero-img .fa-chevron-down {
   position: absolute;
   bottom: 20px;
   font-size: 30px;
-  color: #e8f0f5;
+  color: #ffffff;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -144,7 +144,7 @@ header.hero-img .fa-chevron-down {
   position: relative;
   background-size: cover;
   background-position: center;
-  color: #e8f0f5;
+  color: #ffffff;
   z-index: 0;
 }
 .aboutus-hero .aboutus-shadow {
@@ -183,8 +183,33 @@ header.hero-img .fa-chevron-down {
   margin: 15px;
 }
 
-.price .price-box {
+.prices .price-box {
   margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  max-width: 300px;
+}
+.prices .price-title {
+  text-transform: uppercase;
+  color: #039dff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.prices span {
+  font-weight: bold;
+}
+.prices i {
+  padding: 0 5px;
+  font-size: 24px;
+}
+.prices button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.prices .price-tag {
+  font-weight: bold;
+  font-size: 30px;
 }
 
 @media (min-width: 768px) {
