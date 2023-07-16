@@ -184,6 +184,23 @@ header.hero-img {
   }
 }
 
+.portfolio {
+  .carousel-item {
+    height: 500px;
+  }
+
+  .carousel-caption {
+    right: 0;
+    left: 0;
+    padding: 40px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .carousel-indicators {
+    padding-bottom: 20px;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-text {
     h1 {
