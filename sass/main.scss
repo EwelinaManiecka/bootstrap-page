@@ -207,11 +207,11 @@ header.hero-img {
   .carousel-indicators {
     padding-bottom: 20px;
   }
-}
 
-.card-group {
-  .card {
-    margin: 15px;
+  .card-group {
+    .card {
+      margin: 15px;
+    }
   }
 }
 
@@ -222,6 +222,11 @@ header.hero-img {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     padding: 30px;
     max-width: 300px;
+    transition: scale 0.3s;
+
+    &:hover {
+      scale: 1.05;
+    }
   }
 
   .price-title {
@@ -248,6 +253,21 @@ header.hero-img {
   .price-tag {
     font-weight: bold;
     font-size: 30px;
+  }
+
+  .price-info {
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.team {
+  .card-footer {
+    i {
+      font-size: 20px;
+      color: $mainColor;
+    }
   }
 }
 

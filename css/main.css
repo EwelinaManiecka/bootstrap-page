@@ -178,8 +178,7 @@ header.hero-img .fa-chevron-down {
 .portfolio .carousel-indicators {
   padding-bottom: 20px;
 }
-
-.card-group .card {
+.portfolio .card-group .card {
   margin: 15px;
 }
 
@@ -189,6 +188,10 @@ header.hero-img .fa-chevron-down {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   padding: 30px;
   max-width: 300px;
+  transition: scale 0.3s;
+}
+.prices .price-box:hover {
+  scale: 1.05;
 }
 .prices .price-title {
   text-transform: uppercase;
@@ -210,6 +213,14 @@ header.hero-img .fa-chevron-down {
 .prices .price-tag {
   font-weight: bold;
   font-size: 30px;
+}
+.prices .price-info a {
+  text-decoration: none;
+}
+
+.team .card-footer i {
+  font-size: 20px;
+  color: #039dff;
 }
 
 @media (min-width: 768px) {
