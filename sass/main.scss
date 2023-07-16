@@ -271,6 +271,26 @@ header.hero-img {
   }
 }
 
+.team-img {
+  position: relative;
+  background-image: url("../img/sala-small.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 60vh;
+  color: $white;
+  z-index: 0;
+}
+
+.team-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  z-index: -5;
+}
+
 @media (min-width: 768px) {
   .hero-text {
     h1 {
