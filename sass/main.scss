@@ -276,6 +276,10 @@ header.hero-img {
       text-transform: uppercase;
     }
 
+    .card-body {
+      height: 160px;
+    }
+
     img {
       height: 300px;
       object-fit: cover;
@@ -320,6 +324,10 @@ header.hero-img {
     p {
       font-size: 22px;
     }
+  }
+
+  .card-body {
+    height: 140px;
   }
 }
 

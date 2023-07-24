@@ -229,6 +229,9 @@ header.hero-img .fa-chevron-down {
   text-align: center;
   text-transform: uppercase;
 }
+.team .card .card-body {
+  height: 160px;
+}
 .team .card img {
   height: 300px;
   -o-object-fit: cover;
@@ -266,6 +269,9 @@ header.hero-img .fa-chevron-down {
   }
   .hero-text p {
     font-size: 22px;
+  }
+  .card-body {
+    height: 140px;
   }
 }
 @media (min-width: 992px) {
