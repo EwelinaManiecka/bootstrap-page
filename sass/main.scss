@@ -335,6 +335,33 @@ header.hero-img {
   }
 }
 
+.contact {
+  position: relative;
+  background-image: url("../img/skyline-small.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+
+  .section-title {
+    color: $light-gray;
+  }
+
+  .underline {
+    background-color: $light-gray;
+  }
+
+  .contact-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 9, 27, 0.85);
+    z-index: -5;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-text {
     h1 {
@@ -369,5 +396,9 @@ header.hero-img {
 
   .team-img {
     background-image: url("../img/sala-big.jpg");
+  }
+
+  .contact {
+    background-image: url("../img/skyline-big.jpg");
   }
 }
