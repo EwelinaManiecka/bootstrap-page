@@ -263,6 +263,23 @@ header.hero-img .fa-chevron-down {
   z-index: -5;
 }
 
+.achievements {
+  padding: 20px 0;
+}
+.achievements i {
+  padding: 10px;
+  font-size: 48px;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.achievements .achievements-number {
+  font-size: 22px;
+}
+.achievements .achievements-text {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   .hero-text h1 {
     font-size: 42px;

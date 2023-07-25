@@ -315,6 +315,26 @@ header.hero-img {
   z-index: -5;
 }
 
+.achievements {
+  padding: 20px 0;
+
+  i {
+    padding: 10px;
+    font-size: 48px;
+    color: $white;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+  }
+
+  .achievements-number {
+    font-size: 22px;
+  }
+
+  .achievements-text {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-text {
     h1 {
