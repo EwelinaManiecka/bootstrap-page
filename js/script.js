@@ -19,3 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("scroll", addShadow);
 });
+
+const time = document.querySelector(".time");
+
+const handleCurrentYear = () => {
+  const year = new Date().getFullYear();
+  time.innerHTML = year;
+};
+
+handleCurrentYear();
